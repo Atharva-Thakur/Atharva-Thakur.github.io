@@ -68,45 +68,56 @@ const workData = [
 // ========================================
 const projectsData = [
     {
+        title: "LLMs Playing Secret Hitler",
+        description: "A multi-agent simulation where Large Language Models play the social deduction game 'Secret Hitler'. Features autonomous agents with Chain-of-Thought reasoning, private memory streams, and emergent deceptive behaviors.",
+        tags: ["Multi-Agent Systems", "LLM", "Python", "Game Theory"],
+        github: "https://github.com/Atharva-Thakur/LLMs-Playing-Secret-Hitler",
+        demo:null,
+        image: "assets/images/llms-secret-hitler.png"
+    },
+    {
+        title: "Algorithmic Fairness in Loan Approval",
+        description: "Analyzing bias and fairness in machine learning models for loan approval decisions. Implements fairness metrics and mitigation techniques to ensure equitable outcomes across demographic groups.",
+        tags: ["Fairness", "Ethics in AI", "Python", "ML"],
+        github: "https://www.kaggle.com/code/artagg/bias-in-loan-approval-algorithm-oops",
+        demo: null,
+        image: "assets/images/fairness-loan-approval.png"
+    },
+    {
         title: "Insights - AI Data Analysis Tool",
         description: "AI-powered data analysis tool using Generative AI and LLMs for automated exploration, visualization, and ML model building. Deployed on Hugging Face.",
         tags: ["Generative AI", "LLM", "Python", "Hugging Face"],
-        github: "https://github.com/Atharva-Thakur",
+        github: "https://github.com/Atharva-Thakur/Insights",
         demo: null
     },
     {
         title: "EMOQ - Emotion-Based Food Recommendations",
         description: "Food recommendation system using facial expression analysis and computer vision to detect emotions and suggest suitable food options.",
         tags: ["Computer Vision", "ML", "Python"],
-        github: "https://github.com/Atharva-Thakur",
+        github: "https://github.com/Atharva-Thakur/Mood-Based-Food-Recommendation-System",
         demo: null
     },
     {
         title: "SharkScore - Pitch Success Predictor",
         description: "Logistic regression model to predict success of pitches on Shark Tank India, providing actionable insights for entrepreneurs.",
         tags: ["Machine Learning", "Python", "Data Analysis"],
-        github: "https://github.com/Atharva-Thakur",
-        demo: null
+        github: "https://github.com/Atharva-Thakur/SharkScore-Predicting-Success-in-Shark-Tank-India-Pitches",
+        demo: null,
+        image: "assets/images/sharkscore.png"
     },
     {
         title: "Explainable AI for Sepsis Detection",
         description: "AI model for early sepsis detection integrating ML with clinical knowledge, providing accurate predictions with transparent, explainable outputs.",
         tags: ["XAI", "Healthcare AI", "Deep Learning"],
         github: "https://github.com/Atharva-Thakur",
-        demo: null
+        demo: null,
+        image: "assets/images/explainable-ai-sepsis.png"
     },
     {
         title: "InterviewPal - AI Interview Coach",
         description: "Generative AI-powered interview simulation tool that evaluates responses using LLMs and provides personalized feedback.",
         tags: ["Generative AI", "LLM", "NLP"],
-        github: "https://github.com/Atharva-Thakur",
-        demo: null
-    },
-    {
-        title: "FlavourFinder - Restaurant Recommendations",
-        description: "Web app recommending local restaurants based on user flavor preferences with rating and review features.",
-        tags: ["Web Development", "ML", "Recommendation System"],
-        github: "https://github.com/Atharva-Thakur",
+        github: "https://github.com/Atharva-Thakur/InterviewPal",
         demo: null
     }
 ];
