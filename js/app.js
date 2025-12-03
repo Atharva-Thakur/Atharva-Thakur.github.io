@@ -173,6 +173,7 @@ function renderPublications() {
                 <span class="publication-venue">${pub.venue}</span> • 
                 <span class="publication-year">${pub.year}</span>
             </div>
+            ${pub.description ? `<p class="publication-description">${pub.description}</p>` : ''}
         </div>
     `).join('');
     

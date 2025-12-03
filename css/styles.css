@@ -421,6 +421,14 @@ a {
     color: var(--text-secondary);
 }
 
+.publication-description {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: var(--spacing-xs);
+    padding-left: 0;
+}
+
 /* ========================================
    Blog Section
    ======================================== */

@@ -11,12 +11,14 @@ const timelineData = [
     {
         year: "2025",
         title: "Software Developer at PTC",
-        description: "Building agentic AI frameworks and AI-powered chatbots at PTC, Pune."
+        description: "Building agentic AI frameworks and AI-powered chatbots at PTC, Pune.",
+        image: "assets/images/ptc.png"
     },
     {
         year: "2025",
         title: "Graduated with B.Tech",
-        description: "Completed AI & Data Science degree from VIT Pune with 9.08 CGPA."
+        description: "Completed AI & Data Science degree from VIT Pune with 9.08 CGPA.",
+        image: "assets/images/vitpune.png"
     },
     {
         year: "2024",
@@ -31,12 +33,14 @@ const timelineData = [
     {
         year: "2022",
         title: "Started College at VIT Pune",
-        description: "Began AI & Data Science journey at Vishwakarma Institute of Technology."
+        description: "Began AI & Data Science journey at Vishwakarma Institute of Technology.",
+        image: "assets/images/vitpune.png"
     },
     {
         year: "2021",
-        title: "Founded Realumini Foundation",
-        description: "Started a local community initiative with friends focused on giving back—organized leadership camps, visited orphanages, and ran tree plantation drives in rural areas."
+        title: "Founded Realumini Foundation - Alibag Chapter",
+        description: "Started a local community initiative with friends focused on giving back—organized leadership camps, visited orphanages, and ran tree plantation drives in rural areas.",
+        image: "assets/images/realumini.png"
     },
     {
         year: "2021",
@@ -95,7 +99,8 @@ const projectsData = [
         description: "Food recommendation system using facial expression analysis and computer vision to detect emotions and suggest suitable food options.",
         tags: ["Computer Vision", "ML", "Python"],
         github: "https://github.com/Atharva-Thakur/Mood-Based-Food-Recommendation-System",
-        demo: null
+        demo: null,
+        image: "assets/images/emoq.png"
     },
     {
         title: "SharkScore - Pitch Success Predictor",
@@ -155,6 +160,7 @@ const publicationsData = [
         authors: "Atharva Thakur et al.",
         venue: "arXiv (preprint)",
         year: "2025",
+        description: "Proposes an interpretable AI framework for early sepsis detection in ICU patients. Integrates clinical knowledge with machine learning to provide accurate predictions while maintaining transparency through explainable AI techniques, enabling healthcare professionals to understand and trust model decisions.",
         link: "https://arxiv.org"
     },
     {
@@ -162,6 +168,7 @@ const publicationsData = [
         authors: "Atharva Thakur et al.",
         venue: "IJRASEM, Vol. 7, Issue 11",
         year: "2023",
+        description: "Explores the application of Large Language Models in creating bias-free hiring algorithms. Addresses fairness concerns in automated recruitment systems by implementing techniques to detect and mitigate demographic biases, ensuring equitable candidate evaluation across protected attributes.",
         link: "#"
     },
     {
@@ -169,6 +176,7 @@ const publicationsData = [
         authors: "Atharva Thakur et al.",
         venue: "NeuroQuantology, Volume 20 No 13",
         year: "2022",
+        description: "Presents a novel food recommendation system that leverages facial expression recognition and emotion detection. Uses computer vision to analyze user emotions in real-time and suggests personalized food choices aligned with their emotional state, demonstrating practical applications of affective computing.",
         link: "#"
     }
 ];
