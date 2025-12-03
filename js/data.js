@@ -10,28 +10,38 @@
 const timelineData = [
     {
         year: "2025",
-        title: "New Achievement",
-        description: "Add your latest achievement or milestone here."
+        title: "Software Developer at PTC",
+        description: "Building agentic AI frameworks and AI-powered chatbots at PTC, Pune."
+    },
+    {
+        year: "2025",
+        title: "Graduated with B.Tech",
+        description: "Completed AI & Data Science degree from VIT Pune with 9.08 CGPA."
     },
     {
         year: "2024",
-        title: "Another Milestone",
-        description: "Describe what you accomplished during this year."
+        title: "Research Intern at PTC",
+        description: "Built a vector search engine with PostgreSQL, won a team hackathon, and migrated the frontend from AngularJS to Angular 18—which was quite the adventure."
     },
     {
-        year: "2023",
-        title: "Important Event",
-        description: "Share an important event or achievement from this year."
+        year: "2022-2024",
+        title: "The Classic College Overcommitment Phase",
+        description: "Juggled multiple hats—counting money as Finance Head, breaking code as Cyber-security Co-Head at Team Quark, wrangling databases at EDC, and building Flutter apps at GDSC. Sleep was optional."
     },
     {
         year: "2022",
-        title: "Career Beginning",
-        description: "Started your journey in your field or industry."
+        title: "Started College at VIT Pune",
+        description: "Began AI & Data Science journey at Vishwakarma Institute of Technology."
     },
     {
         year: "2021",
-        title: "Education Milestone",
-        description: "Completed your degree or certification."
+        title: "Founded Realumini Foundation",
+        description: "Started a local community initiative with friends focused on giving back—organized leadership camps, visited orphanages, and ran tree plantation drives in rural areas."
+    },
+    {
+        year: "2021",
+        title: "Completed Higher Secondary",
+        description: "Graduated from RCF School, Alibag with 93.14%."
     }
 ];
 
@@ -40,22 +50,16 @@ const timelineData = [
 // ========================================
 const workData = [
     {
-        title: "Senior Software Engineer",
-        company: "Tech Company Name",
-        period: "2023 - Present",
-        description: "Leading development of scalable web applications. Working with modern technologies and mentoring junior developers."
+        title: "Software Developer",
+        company: "PTC, Pune",
+        period: "July 2025 - September 2026",
+        description: "Designed and developed an agentic AI framework. Built a chatbot leveraging AI/NLP techniques. Loaded and indexed large datasets into Azure AI Search. Contributed to scalable backend system development."
     },
     {
-        title: "Software Engineer",
-        company: "Another Company",
-        period: "2021 - 2023",
-        description: "Developed and maintained multiple web applications. Collaborated with cross-functional teams to deliver high-quality products."
-    },
-    {
-        title: "Junior Developer",
-        company: "Startup Name",
-        period: "2020 - 2021",
-        description: "Built features for web applications and learned best practices in software development."
+        title: "Research Intern",
+        company: "PTC, Pune",
+        period: "July 2024 - July 2025",
+        description: "Developed high-performance vector search engine using PostgreSQL with pgvector. Researched and implemented AI/ML proof-of-concepts. Won team hackathon. Migrated frontend from AngularJS to Angular 18."
     }
 ];
 
@@ -64,46 +68,45 @@ const workData = [
 // ========================================
 const projectsData = [
     {
-        title: "Project Alpha",
-        description: "A comprehensive web application that solves a specific problem. Built with modern technologies and best practices.",
-        tags: ["React", "Node.js", "MongoDB"],
-        github: "https://github.com/yourusername/project-alpha",
-        demo: "https://project-alpha.example.com",
-        image: 'assets/images/dexter.png'
-    },
-    {
-        title: "Project Beta",
-        description: "An innovative tool that helps users accomplish their goals more efficiently. Features a clean and intuitive interface.",
-        tags: ["Python", "Flask", "PostgreSQL"],
-        github: "https://github.com/yourusername/project-beta",
+        title: "Insights - AI Data Analysis Tool",
+        description: "AI-powered data analysis tool using Generative AI and LLMs for automated exploration, visualization, and ML model building. Deployed on Hugging Face.",
+        tags: ["Generative AI", "LLM", "Python", "Hugging Face"],
+        github: "https://github.com/Atharva-Thakur",
         demo: null
     },
     {
-        title: "Project Gamma",
-        description: "Open-source library that provides useful utilities for developers. Well-documented and actively maintained.",
-        tags: ["JavaScript", "TypeScript", "npm"],
-        github: "https://github.com/yourusername/project-gamma",
-        demo: "https://project-gamma-docs.example.com"
-    },
-    {
-        title: "Project Delta",
-        description: "Mobile-first application designed to enhance user productivity. Built with performance and accessibility in mind.",
-        tags: ["React Native", "Redux", "Firebase"],
-        github: "https://github.com/yourusername/project-delta",
+        title: "EMOQ - Emotion-Based Food Recommendations",
+        description: "Food recommendation system using facial expression analysis and computer vision to detect emotions and suggest suitable food options.",
+        tags: ["Computer Vision", "ML", "Python"],
+        github: "https://github.com/Atharva-Thakur",
         demo: null
     },
     {
-        title: "Project Epsilon",
-        description: "Data visualization dashboard that helps users make informed decisions. Interactive charts and real-time updates.",
-        tags: ["Vue.js", "D3.js", "Express"],
-        github: "https://github.com/yourusername/project-epsilon",
-        demo: "https://project-epsilon.example.com"
+        title: "SharkScore - Pitch Success Predictor",
+        description: "Logistic regression model to predict success of pitches on Shark Tank India, providing actionable insights for entrepreneurs.",
+        tags: ["Machine Learning", "Python", "Data Analysis"],
+        github: "https://github.com/Atharva-Thakur",
+        demo: null
     },
     {
-        title: "Project Zeta",
-        description: "Machine learning project that predicts outcomes based on historical data. Implements state-of-the-art algorithms.",
-        tags: ["Python", "TensorFlow", "Scikit-learn"],
-        github: "https://github.com/yourusername/project-zeta",
+        title: "Explainable AI for Sepsis Detection",
+        description: "AI model for early sepsis detection integrating ML with clinical knowledge, providing accurate predictions with transparent, explainable outputs.",
+        tags: ["XAI", "Healthcare AI", "Deep Learning"],
+        github: "https://github.com/Atharva-Thakur",
+        demo: null
+    },
+    {
+        title: "InterviewPal - AI Interview Coach",
+        description: "Generative AI-powered interview simulation tool that evaluates responses using LLMs and provides personalized feedback.",
+        tags: ["Generative AI", "LLM", "NLP"],
+        github: "https://github.com/Atharva-Thakur",
+        demo: null
+    },
+    {
+        title: "FlavourFinder - Restaurant Recommendations",
+        description: "Web app recommending local restaurants based on user flavor preferences with rating and review features.",
+        tags: ["Web Development", "ML", "Recommendation System"],
+        github: "https://github.com/Atharva-Thakur",
         demo: null
     }
 ];
@@ -113,22 +116,22 @@ const projectsData = [
 // ========================================
 const blogData = [
     {
-        title: "Getting Started with Web Development",
-        date: "November 15, 2025",
-        excerpt: "A comprehensive guide for beginners who want to start their journey in web development. Learn about HTML, CSS, and JavaScript basics.",
-        link: "blog/getting-started-web-development.html"
+        title: "Building Vector Search Engines: Lessons from Production",
+        date: "November 2024",
+        excerpt: "Deep dive into building high-performance vector search with PostgreSQL and pgvector—from indexing strategies to query optimization.",
+        link: "blog/post.html?post=vector-search-production"
     },
     {
-        title: "Understanding Modern JavaScript",
-        date: "October 28, 2025",
-        excerpt: "Explore the latest features in JavaScript and how they can make your code more efficient and readable. ES6+ features explained.",
-        link: "blog/understanding-modern-javascript.html"
+        title: "Making AI Explainable: Why Black Boxes Are a Problem",
+        date: "October 2024",
+        excerpt: "Exploring explainable AI in healthcare—how we built transparent sepsis detection models that doctors can actually trust.",
+        link: "blog/post.html?post=explainable-ai-healthcare"
     },
     {
-        title: "Building Scalable Applications",
-        date: "September 10, 2025",
-        excerpt: "Best practices for building applications that can handle growth. Architecture patterns, database design, and performance optimization.",
-        link: "blog/building-scalable-applications.html"
+        title: "Building Emotion-Aware Systems: From Faces to Food",
+        date: "September 2024",
+        excerpt: "How computer vision and emotion detection can create personalized experiences—lessons from building EMOQ, a mood-based food recommendation system.",
+        link: "blog/post.html?post=emotion-aware-systems"
     }
 ];
 
@@ -137,25 +140,25 @@ const blogData = [
 // ========================================
 const publicationsData = [
     {
-        title: "Paper Title One: A Comprehensive Study",
-        authors: "Your Name, Co-Author Name, Another Author",
-        venue: "Conference/Journal Name 2025",
+        title: "Explainable AI For Early Detection Of Sepsis",
+        authors: "Atharva Thakur et al.",
+        venue: "arXiv (preprint)",
         year: "2025",
-        link: "https://example.com/paper1"
+        link: "https://arxiv.org"
     },
     {
-        title: "Paper Title Two: Novel Approach to Problem Solving",
-        authors: "Your Name, Collaborator Name",
-        venue: "International Conference on Topic",
-        year: "2024",
-        link: "https://example.com/paper2"
+        title: "Developing A Fair Hiring Algorithm Using LLMs",
+        authors: "Atharva Thakur et al.",
+        venue: "IJRASEM, Vol. 7, Issue 11",
+        year: "2023",
+        link: "#"
     },
     {
-        title: "Paper Title Three: Analysis and Implementation",
-        authors: "Your Name, Team Member, Advisor Name",
-        venue: "Journal of Research",
-        year: "2024",
-        link: "https://example.com/paper3"
+        title: "EMOQ-Emotion Based Food Recommendations System",
+        authors: "Atharva Thakur et al.",
+        venue: "NeuroQuantology, Volume 20 No 13",
+        year: "2022",
+        link: "#"
     }
 ];
 
