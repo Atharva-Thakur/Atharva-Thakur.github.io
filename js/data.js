@@ -92,7 +92,8 @@ const projectsData = [
         description: "AI-powered data analysis tool using Generative AI and LLMs for automated exploration, visualization, and ML model building. Deployed on Hugging Face.",
         tags: ["Generative AI", "LLM", "Python", "Hugging Face"],
         github: "https://github.com/Atharva-Thakur/Insights",
-        demo: null
+        demo: null,
+        image: "assets/images/insights.png"
     },
     {
         title: "EMOQ - Emotion-Based Food Recommendations",
@@ -123,7 +124,8 @@ const projectsData = [
         description: "Generative AI-powered interview simulation tool that evaluates responses using LLMs and provides personalized feedback.",
         tags: ["Generative AI", "LLM", "NLP"],
         github: "https://github.com/Atharva-Thakur/InterviewPal",
-        demo: null
+        demo: null,
+        image: "assets/images/interviewpal.png"
     }
 ];
 
