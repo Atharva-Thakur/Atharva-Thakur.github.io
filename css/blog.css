@@ -140,20 +140,33 @@
 
 /* Responsive adjustments for blog articles */
 @media (max-width: 768px) {
+    .blog-article {
+        padding: var(--spacing-md) 0;
+    }
+
     .article-title {
         font-size: 2rem;
+        line-height: 1.2;
     }
 
     .article-content {
         font-size: 1rem;
+        padding: 0 var(--spacing-xs);
     }
 
     .article-content h2 {
         font-size: 1.75rem;
+        margin-top: var(--spacing-md);
     }
 
     .article-content h3 {
         font-size: 1.25rem;
+    }
+
+    .article-content pre {
+        padding: var(--spacing-sm);
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .article-meta {
@@ -163,19 +176,36 @@
 }
 
 @media (max-width: 480px) {
+    .blog-article {
+        padding: var(--spacing-sm) 0;
+    }
+
+    .article-header {
+        margin-bottom: var(--spacing-md);
+        padding-bottom: var(--spacing-sm);
+    }
+
     .article-title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+        line-height: 1.2;
     }
 
     .article-content {
         font-size: 0.95rem;
+        line-height: 1.7;
     }
 
     .article-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
+        margin-top: var(--spacing-sm);
     }
 
     .article-content h3 {
         font-size: 1.125rem;
+    }
+
+    .article-content pre {
+        padding: var(--spacing-xs);
+        font-size: 0.85rem;
     }
 }
