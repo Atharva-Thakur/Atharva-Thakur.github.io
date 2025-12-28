@@ -123,7 +123,7 @@ const projectsData = [
         title: "Explainable AI for Sepsis Detection",
         description: "AI model for early sepsis detection integrating ML with clinical knowledge, providing accurate predictions with transparent, explainable outputs.",
         tags: ["XAI", "Healthcare AI", "Deep Learning"],
-        github: "https://github.com/Atharva-Thakur",
+        github: "https://github.com/Atharva-Thakur/XAI-for-sepsis-detection",
         demo: null,
         image: "assets/images/explainable-ai-sepsis.png"
     },
