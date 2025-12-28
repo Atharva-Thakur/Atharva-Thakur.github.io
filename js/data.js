@@ -72,6 +72,14 @@ const workData = [
 // ========================================
 const projectsData = [
     {
+        title: "Policy Gradient Learning for Catan",
+        description: "A Proximal Policy Optimization (PPO) agent to play the board game Settlers of Catan using the catanatron library and catanatron_gym environment.",
+        tags: ["Proximal Policy Optimization", "Reinforcement Learning", "Actor-Critic", "Stable Baselines3", "PyTorch", "Self-Play"],
+        github: "https://github.com/Atharva-Thakur/PPO-based-RL-agent-for-catan",
+        demo:null,
+        image: "assets/images/catan.png"
+    },
+    {
         title: "LLMs Playing Secret Hitler",
         description: "A multi-agent simulation where Large Language Models play the social deduction game 'Secret Hitler'. Features autonomous agents with Chain-of-Thought reasoning, private memory streams, and emergent deceptive behaviors.",
         tags: ["Multi-Agent Systems", "LLM", "Python", "Game Theory"],
