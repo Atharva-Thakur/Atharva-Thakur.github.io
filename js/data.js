@@ -171,7 +171,7 @@ const publicationsData = [
         venue: "arXiv (preprint)",
         year: "2025",
         description: "Proposes an interpretable AI framework for early sepsis detection in ICU patients. Integrates clinical knowledge with machine learning to provide accurate predictions while maintaining transparency through explainable AI techniques, enabling healthcare professionals to understand and trust model decisions.",
-        link: "https://arxiv.org"
+        link: "https://arxiv.org/abs/2511.06492"
     },
     {
         title: "Developing A Fair Hiring Algorithm Using LLMs",
@@ -179,7 +179,7 @@ const publicationsData = [
         venue: "IJRASEM, Vol. 7, Issue 11",
         year: "2023",
         description: "Explores the application of Large Language Models in creating bias-free hiring algorithms. Addresses fairness concerns in automated recruitment systems by implementing techniques to detect and mitigate demographic biases, ensuring equitable candidate evaluation across protected attributes.",
-        link: "#"
+        link: "https://ijsrem.com/download/developing-a-fair-hiring-algorithm-using-llms/"
     },
     {
         title: "EMOQ-Emotion Based Food Recommendations System",
@@ -187,7 +187,7 @@ const publicationsData = [
         venue: "NeuroQuantology, Volume 20 No 13",
         year: "2022",
         description: "Presents a novel food recommendation system that leverages facial expression recognition and emotion detection. Uses computer vision to analyze user emotions in real-time and suggests personalized food choices aligned with their emotional state, demonstrating practical applications of affective computing.",
-        link: "#"
+        link: "https://neuroquantology.com/open-access/EMOQ-Emotion+Based+Food+Recommendations+System_11456/"
     }
 ];
 
