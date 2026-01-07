@@ -166,6 +166,14 @@ const blogData = [
 // ========================================
 const publicationsData = [
     {
+        title: "Large Language Models Simulating Deception and Coalition in Social Deduction Game",
+        authors: "Atharva Thakur et al.",
+        venue: "research square (preprint)",
+        year: "2025",
+        description: "This study analyzes how large language models behave in a social deduction setting by examining a simulated game of Secret Hitler. Through dialogue and action analysis, it highlights how agents use deception, alliance-building, and hidden-role reasoning under asymmetric information, contrasting deceptive strategies with transparency-driven cooperation. The findings show that while LLMs can adapt strategically and display theory-of-mind reasoning, their deceptive behavior remains limited and often depends on explicit cues, offering insights into multi-agent alignment and social simulation.",
+        link: "https://www.researchsquare.com/article/rs-8456872/v1"
+    },
+    {
         title: "Explainable AI For Early Detection Of Sepsis",
         authors: "Atharva Thakur et al.",
         venue: "arXiv (preprint)",
